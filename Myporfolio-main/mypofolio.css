@@ -1,13 +1,18 @@
 
 body {
-  background-color:rgb(3, 3, 33);  /* black background */
+  background-image: url(/background\ image.jpg);
   color: #f0f0f0;             /* light text for contrast */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   padding: 20px;
   margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
+b{
+    font-size: x-large;
+  
+}
 a {
   color: #1e90ff;   
   text-decoration: none;
@@ -16,10 +21,12 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
+p{
+   text-align: center;
+}
 
 h1, h2 {
-  color: #ffffff; /* white headings */
+  color:cyan;
   font-weight: 600;
   text-decoration: underline;
 }
