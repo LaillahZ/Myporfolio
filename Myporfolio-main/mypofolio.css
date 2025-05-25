@@ -1,0 +1,56 @@
+
+body {
+  background-color:rgb(3, 3, 33);  /* black background */
+  color: #f0f0f0;             /* light text for contrast */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  margin: 0;
+}
+
+a {
+  color: #1e90ff;   
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+h1, h2 {
+  color: #ffffff; /* white headings */
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+/* Buttons */
+.button, .contact-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid cyan;
+  background-color: transparent;
+  color:white;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+
+}
+
+.button:hover, .contact-button:hover {
+  background-color: cyan; 
+  color: black;
+}
+
+
+.button:hover, .contact-button:hover {
+  background-color: #104e8b;
+}
+
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
